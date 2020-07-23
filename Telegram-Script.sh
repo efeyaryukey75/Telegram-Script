@@ -26,5 +26,7 @@ Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
 X-GNOME-UsesNotifications=true" > ~/.local/share/applications/telegramdesktop.desktop
 ##Başlatıcıya Çalıştırılabilir Yetkisi Verelim/Give The Executable Permission
 chmod 755 ~/.local/share/applications/telegramdesktop.desktop
+##İndirilen Dosyayı Temizleyelim
+sudo rm -rf telegram.tar.xz
 ##Komutların Tamamlandı/Commands Finished
 echo Komutlar Tamamlandı Uçbirim Çıktısını Kontrol Edin
