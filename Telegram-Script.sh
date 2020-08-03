@@ -8,7 +8,7 @@ sudo mv Telegram /opt
 ##Başlatıcı Yolu Eğer Oluşmamışsa Oluşturalım/Create The .desktop Files Folder If It Didn't Created Yet
 mkdir -p ~/.local/share/applications
 ##Başlatıcıyı Oluşturalım/Create The Launcher
-echo "
+touch "
 [Desktop Entry]
 Version=1.0
 Name=Telegram Desktop
