@@ -1,8 +1,8 @@
 #!/bin/bash
 ##Telegram Son Sürüm İndirelim/Let's Download The Latest Version of Telegram
-wget -O telegram.tar.bz2 "https://telegram.org/dl/desktop/linux"  --no-check-certificate
+wget -O telegram.tar.xz "https://telegram.org/dl/desktop/linux"  --no-check-certificate
 ##Sıkıştırılmış Dosyayı Çıkaralım/Extract The Downloaded File
-sudo tar xjf telegram.tar.bz2
+sudo tar -xf telegram.tar.xz
 ##Çıkan Dosyayı /opt Dizinine Taşıyalım/Move The Extracted File To The opt Folder
 sudo mv Telegram /opt
 ##Başlatıcı Yolu Eğer Oluşmamışsa Oluşturalım/Create The .desktop Files Folder If It Didn't Created Yet
@@ -27,6 +27,6 @@ X-GNOME-UsesNotifications=true" > ~/.local/share/applications/telegramdesktop.de
 ##Başlatıcıya Çalıştırılabilir Yetkisi Verelim/Give The Executable Permission
 chmod 755 ~/.local/share/applications/telegramdesktop.desktop
 ##İndirilen Dosyayı Temizleyelim
-sudo rm -rf telegram.tar.bz2
+sudo rm -rf telegram.tar.xz
 ##Komutların Tamamlandı/Commands Finished
 echo Komutlar Tamamlandı Uçbirim Çıktısını Kontrol Edin
