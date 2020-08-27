@@ -11,4 +11,4 @@ chmod +x Telegram-Script.sh
 
 ##Run the sh file
 
-sudo ./Telegram-Script.sh
+./Telegram-Script.sh
