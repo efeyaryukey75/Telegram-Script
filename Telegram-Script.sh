@@ -7,6 +7,8 @@ sudo tar -xf telegram.tar.xz
 sudo mv Telegram /opt
 ##İndirilen Dosyayı Temizleyelim/Clear The Downloaded File
 sudo rm -rf telegram.tar.xz
+##Başlatıcı Yolu Eğer Oluşmamışsa Oluşturalım/Create The .desktop Files Folder If It Didn't Created Yet
+mkdir -p ~/.local/share/applications/
 ##Başlatıcı Dosyamızı Oluşturalım/Create  The Launcher
 touch ~/.local/share/applications/telegramdesktop.desktop
 ###Başlatıcımızın İçeriğini Yazalım/Write The Launcher's Content
