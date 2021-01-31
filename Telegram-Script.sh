@@ -4,7 +4,7 @@ wget -O telegram.tar.xz "https://telegram.org/dl/desktop/linux"  --no-check-cert
 ##Sıkıştırılmış Dosyayı Çıkaralım/Extract The Downloaded File
 sudo tar -xf telegram.tar.xz
 ##Çıkan Dosyayı /opt Dizinine Taşıyalım/Move The Extracted File To The opt Folder
-sudo mv Telegram /opt
+sudo mv -f Telegram /opt
 ##İndirilen Dosyayı Temizleyelim/Clear The Downloaded File
 sudo rm -rf telegram.tar.xz
 ##Başlatıcı Yolu Eğer Oluşmamışsa Oluşturalım/Create The .desktop Files Folder If It Didn't Created Yet
